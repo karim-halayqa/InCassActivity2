@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">InClassActivity2</string>
+    <string-array name="empStatus">
+        <item>Part Time</item>
+        <item>Full Time</item>
+    </string-array>
 </resources>

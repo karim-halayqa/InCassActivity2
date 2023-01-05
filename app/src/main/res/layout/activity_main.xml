@@ -6,13 +6,42 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="200dp"
+        android:layout_margin="10dp">
 
+        <EditText
+            android:id="@+id/nameTF"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="EditText"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/salaryTF"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="EditText"
+            android:layout_marginBottom="20dp"/>
+
+        <Spinner
+            android:id="@+id/statusSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:contentDescription="Employment Status"/>
+
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+
+        <ListView
+            android:id="@+id/empList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
