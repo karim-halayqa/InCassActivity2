@@ -34,4 +34,11 @@ public class Employee {
     public void setFullTime(String fullTime) {
         this.fullTime = fullTime;
     }
+
+    @Override
+    public String toString() {
+        return "name='" + name + '\'' +
+                "  salary=" + salary +
+                "   status:'" + fullTime + '\'';
+    }
 }
