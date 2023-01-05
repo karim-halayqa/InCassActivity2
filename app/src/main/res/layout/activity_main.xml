@@ -17,14 +17,14 @@
             android:id="@+id/nameTF"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="EditText"
+            android:hint="Full Name"
             android:layout_marginBottom="20dp"/>
 
         <EditText
             android:id="@+id/salaryTF"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="EditText"
+            android:hint="Salary"
             android:layout_marginBottom="20dp"/>
 
         <Spinner

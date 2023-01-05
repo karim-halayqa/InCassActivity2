@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.km.inclassactivity2.model.Employee;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -68,5 +69,6 @@ public class MainActivity extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, empStatusArr);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         statusSpinner.setAdapter(adapter);
+        employees = new ArrayList<>();
     }
 }
